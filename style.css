@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  .wrapper {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  
+  .button {
+    display: block;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 1rem 0;
+    transition: all 0.3s ease;
+  }
+  .button--facebook {
+    background-color: #3b5998;
+  }
+  .button--facebook:hover {
+    background-color: #2d4373;
+  }
+  .button--facebook:before {
+    content: "";
+    font-family: "FontAwesome";
+    padding-right: 1rem;
+  }
+  .button--google {
+    background-color: #dd4b39;
+  }
+  .button--google:hover {
+    background-color: #c23321;
+  }
+  .button--google:before {
+    content: "";
+    font-family: "FontAwesome";
+    padding-right: 1rem;
+  }
+  .button--microsoft {
+    background-color: #00bcf2;
+  }
+  .button--microsoft:hover {
+    background-color: #0094bf;
+  }
+  .button--microsoft:before {
+    content: "";
+    font-family: "FontAwesome";
+    padding-right: 1rem;
+  }
+  
